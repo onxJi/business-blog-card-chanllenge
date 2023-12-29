@@ -78,16 +78,16 @@ p{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    
-    && span:first-child{
+}
+
+.card-footer-text span:first-child{
         font-family: 'lato';
         font-size: 1rem;
         color: #111729;
         font-weight: bold;
-    }
-    && span:last-child{
+}
+.card-footer-text span:last-child{
         font-family: 'lato';
         font-size: 0.8rem;
         color: #677489;
-    }
 }
